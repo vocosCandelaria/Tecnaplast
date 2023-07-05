@@ -1,0 +1,124 @@
+/* .boton{
+    background: var(--gradiente);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    border: 3px solid var(--turquesa);
+    padding: 0.7em 1.3em;
+    letter-spacing: 2px;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+    cursor: pointer;
+} */
+
+/* @keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 11.25rem;
+    }
+    100% {
+        background-position: 20rem;
+    }
+} */
+
+.boton {
+    align-items: center;
+    background-image: linear-gradient(144deg, #022530, #193b57 50%, #00ADF1);
+    /* background-image: linear-gradient(144deg, #022530, #193b57 50%, #00DDEB); */
+    /* background-image: linear-gradient(144deg, #00ADF1, #231F20 50%, gray);  */
+    /* background-color: linear-gradient(to right, #231F20 0, #00ADF1 10%, #231F20 20%); */
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.boton:active,
+.boton:hover {
+    outline: 0;
+}
+
+.boton span {
+    background-color: rgb(5, 11, 45);
+    padding: 14px 22px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.boton:hover span {
+    background: none;
+}
+
+.boton:active {
+    transform: scale(0.9);
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+input:focus {
+    /* border: 2px solid rgba(0, 206, 158, 1); */
+    border: 3px solid var(--turquesa);
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    border: 3px solid var(--turquesa);
+}
+
+label {
+    margin-top: 1rem;
+}

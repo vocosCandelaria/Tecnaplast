@@ -1,0 +1,221 @@
+.portada_imagen {
+    height: 90vh;
+    width: 100%;
+    background-image: url("../../Assets/portada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+/* .portada_texto {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+    text-align: left;
+    z-index: 1;
+}
+
+.portada_titulo {
+    font-family: 'Sacramento', cursive;
+    text-align: left;
+    font-size: 4rem;
+}
+
+.portada_subtitulo {
+    font-size: 1,5 rem;
+} */
+
+/*---------------------------------------------------------------------*/
+.mision {
+    background-color: var(--negro);
+    width: 100%;
+    height: auto;
+    padding: 5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.mision_texto {
+    grid-column: 2 / span 5;
+    grid-row: 1;
+}
+
+.flow--lg > * + * {
+    margin-top: 2em;
+}
+
+.flow > * + * {
+    margin-top: 1em;
+}
+
+.mision_fondo {
+    grid-column: 2 / span 5;
+    grid-row: 1;
+}
+
+.mision_fondo h1{
+    font-size: 7rem;
+    color: var(--grisClaro);
+    opacity: 0.05;
+    text-align: center;
+    letter-spacing: .8rem;
+    z-index: -1;
+}
+
+.mision_titulo {
+    color: var(--grisClaro);
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.mision_titulo span {
+    color: var(--turquesa);
+}
+
+.mision_subtitulo {
+    color: var(--grisClaro);
+    text-align: justify;
+    padding: 0 5rem;
+}
+
+.mision_subtitulo span{
+    color: var(--turquesa);
+}
+
+.mision_imagen {
+    margin: 0;
+    height: 50vh;
+    width: 50%;
+    background-image: url('https://preciousplastic.com/images/hdiw-workspace.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    /* background-attachment: fixed; */
+    grid-column: 7 / span 6;
+    grid-row: 1;
+}
+
+/*---------------------------------------------------------------------*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title h2{
+    padding: 1.7rem 0;
+    background: var(--gradiente);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 700;
+    /* white-space: nowrap; */
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 11.25rem;
+    }
+    100% {
+        background-position: 20rem;
+    }
+}
+
+
+/*---------------------------------------------------------------------*/
+
+.beneficios_fondo {
+    background-image: url("../../Assets/beneficios.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    padding: 9rem 0;
+}
+
+.beneficios_total {
+    margin: 0 auto;
+    color: var(--grisClaro);
+}
+
+.beneficios_izquierda{
+    padding: 0 3.5rem;
+}
+
+.beneficios_linea {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border: 0;
+    border-top: 5px solid var(--turquesa);
+    width: 4rem;
+}
+
+.beneficios_izquierda_fondo {
+    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3rem 3.5rem;
+    color: var(--grisClaro);
+    /* opacity: .7; */
+    position: relative;
+    z-index: 1;
+}
+
+.beneficios_izquierda_fondo span{
+    color: var(--turquesa);
+}
+
+.beneficios_numero{
+    width: 3rem;
+    border-right: solid 3px;
+}
+
+/*---------------------------------------------------------------------*/
+
+.clientes{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.cliente {
+    /* width: 12rem;
+    height: 8rem; */
+    border: 0;
+    margin: 1rem;
+}
+
+/* @media screen and  (min-width: 349px) and (max-width: 575px) {
+    .beneficios_texto{
+        padding-left: 7rem;
+    }
+} */
+
+/*---------------------------------------------------------------------*/
+
+
+

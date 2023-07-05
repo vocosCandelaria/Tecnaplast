@@ -1,0 +1,15 @@
+/*Variables*/
+
+:root {
+  --grisClaro: #E8E8E8;
+  --gris: grey;
+  --celeste: #E5F6FD;
+  --turquesa: #00ADF1;
+  --negro: #231F20;
+  --gradiente: linear-gradient(to right, rgb(5, 11, 45) 0, #00ADF1 10%, rgb(5, 11, 45) 20%);
+  --aqua: aqua;
+  --verde: rgb(103, 250, 6);
+}
+
+
+

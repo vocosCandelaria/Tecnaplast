@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sofia Sans', sans-serif;
+  outline: none;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+} */
+
+.row {
+  margin-right: 0; 
+  margin-left: 0;
+}
+
+.container-fluid{
+  padding-right: 0;
+  padding-left: 0;
+}
