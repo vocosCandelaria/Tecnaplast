@@ -11,22 +11,27 @@ const ItemListContainerMaquinas = () => {
 
   const { CategoryId, SubCategoryId } = useParams();
   const [products, setProducts] = useState([]);
+  const [collectionName, setCollectionName] = useState([]);
   const { search, loading, setLoading } = useContext(GlobalContext);
 
    const fetchGetDataCollection = async () => {
     
      setLoading(true)
-
-     const col = collection(db, 'maquinas')
-
-     const q = CategoryId ? query(col, where('category', '==', CategoryId)) : col
-
+     const collectionName = window.location.href.includes('Moldes') ? 'moldes' : 'maquinas'
+     setCollectionName(collectionName)
+     const col = collection(db, collectionName)
+     let q = col
+     if(CategoryId || SubCategoryId) {
+      q = SubCategoryId  ? query(col, where('name', '==', SubCategoryId)) : query(col, where('category', '==', CategoryId)) ;
+     }
+   
+    
      try {
        const data = await getDocs(q)
        const result = data?.docs?.map(doc => doc = { id: doc.id, ...doc.data() })
+       console.log(result)
        setProducts(result)
        setLoading(false)
-      console.log(result)
      } catch (error) {
        console.log(error)
      }
@@ -48,13 +53,12 @@ const ItemListContainerMaquinas = () => {
     }
   });
 
- 
 
   return (
     <>
       {/* {CategoryId ? <h2 className='category_title'>{CategoryId} </h2> : <h2 className='category_title'>nuestras máquinas</h2>} */}
-      <h2 className='category_title'>{CategoryId ? SubCategoryId ? `${SubCategoryId}` : CategoryId : 'nuestras máquinas'}</h2>
-       {loading ? (<Loading />) : <ItemList items={products} />} 
+      <h2 className='category_title'>{ SubCategoryId ? `${SubCategoryId}` : CategoryId}</h2>
+       {loading ? (<div className='loading'><Loading /></div>) : <ItemList items={products} type={collectionName} />} 
         
     </>
   );

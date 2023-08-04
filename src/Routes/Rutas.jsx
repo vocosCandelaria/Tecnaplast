@@ -16,13 +16,13 @@ const Rutas = () => {
             <Routes>
                 <Route path='/' element= {<Layout/>}>
                   <Route index element= {<Home/>}/>
-                  <Route path="/Maquinas" element={<ItemListContainerMaquinas/>}/>
-                  <Route path="/Moldes" element={<ItemListContainerMoldes/>}/>
+                  <Route path="/Moldes" element={<ItemListContainerMaquinas/>}/>
                   <Route path="/PlantaReciclaje" element={<PlantaReciclaje/>}/>
                   <Route path="/Contacto" element={<Contact/>}/>
+                  <Route path="/Maquinas" element = {<ItemListContainerMaquinas/>}/>
                   <Route path="/Maquinas/:CategoryId" element = {<ItemListContainerMaquinas/>}/>
                   <Route path="/Maquinas/:CategoryId/:SubCategoryId" element = {<ItemListContainerMaquinas/>}/>
-                  <Route path="/Moldes/:CategoryId" element = {<ItemListContainerMoldes/>}/>
+                  <Route path="/Moldes/:CategoryId" element = {<ItemListContainerMaquinas/>}/>
                   <Route path="/DetalleProducto/:ItemId" element = {<ItemDetailContainer/>}/>
                 </Route>
                 <Route path="*" element={<Error/>}/>

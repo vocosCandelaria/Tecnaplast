@@ -1,12 +1,16 @@
 import React from 'react';
-import trituradoras from '../../Assets/categorías/1_trituradoras.png';
+import trituradoras from '../../Assets/maquinas/tb/main.png';
 import extrusoras from '../../Assets/categorías/extrusoras.png';
 import inyectoras from '../../Assets/categorías/inyectoras.png';
 import horno_compresion from '../../Assets/categorías/horno_compresion.png';
+import prensas_tablas from '../../Assets/categorías/prensas_tablas.png';
 import estaciones_combinadas from '../../Assets/categorías/estaciones_combinadas.png';
 import buenos_aires from '../../Assets/clientes/1_Ministerio_BsAs.png';
 import ministerio_de_educacion_cordoba from '../../Assets/clientes/2_Ministerio_Cordoba.png';
 import ministerio_de_educacion_santa_fe from '../../Assets/clientes/3_Ministerio_Santa_Fe.png';
+import moldes_compresion from '../../Assets/moldes/mc/main.png';
+import moldes_extrusion from '../../Assets/moldes/me/main.png';
+import moldes_inyeccion from '../../Assets/moldes/mi/main.png';
 import munic_bragado from '../../Assets/clientes/4_Municipalidad_Bragado.png';
 import munic_despeñaderos from '../../Assets/clientes/5_Municipalidad_Despeñaderos.png';
 import munic_rio_grande from '../../Assets/clientes/6_Municipio_Rio_Grande.png';
@@ -55,11 +59,11 @@ const Home = () => {
             <h2>máquinas</h2>
           </div>
           <div className='row'>
-            <CategoryMaquinas imagen={horno_compresion} CategoryId={'Horno Compresión'} />
+            <CategoryMaquinas imagen={horno_compresion} CategoryId={'Horno de Compresion'} />
             <CategoryMaquinas imagen={trituradoras} CategoryId={'Trituradoras'} />
             <CategoryMaquinas imagen={extrusoras} CategoryId={'Extrusoras'} />
             <CategoryMaquinas imagen={inyectoras} CategoryId={'Inyectoras'} />
-            <CategoryMaquinas imagen={'https://matesibarra.com/wp-content/uploads/2021/06/doite-termo-stanley-verde-nuevo-2020-46721-02-247x296.jpg'} CategoryId={'Prensas Tablas'} />
+            <CategoryMaquinas imagen={prensas_tablas} CategoryId={'Prensas Tablas'} />
             <CategoryMaquinas imagen={estaciones_combinadas} CategoryId={'Estaciones Combinadas'} />
           </div>
         </section>
@@ -69,9 +73,9 @@ const Home = () => {
             <h2>moldes y accesorios</h2>
           </div>
           <div className='row'>
-            <CategoryMoldes imagen={'https://matesibarra.com/wp-content/uploads/2021/06/2doCatalogoAbril32-scaled-247x296.jpg'} CategoryId={'Moldes de Inyección'} />
-            <CategoryMoldes imagen={'https://matesibarra.com/wp-content/uploads/2021/06/2doCatalogoAbril60-247x296.jpg'} CategoryId={'Moldes de Extrusión'} />
-            <CategoryMoldes imagen={'https://matesibarra.com/wp-content/uploads/2021/06/Catalogo-Abril15-247x296.jpg'} CategoryId={'Moldes de Compresión'} />
+            <CategoryMoldes imagen={moldes_inyeccion} CategoryId={'Moldes de Inyección'} />
+            <CategoryMoldes imagen={moldes_extrusion} CategoryId={'Moldes de Extrusión'} />
+            <CategoryMoldes imagen={moldes_compresion} CategoryId={'Moldes de Compresión'} />
           </div>
         </section>
 

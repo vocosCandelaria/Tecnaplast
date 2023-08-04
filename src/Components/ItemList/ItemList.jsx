@@ -1,8 +1,8 @@
 import React from 'react';
 import Item from '../Item/Item';
 
-const ItemList = ({ items }) => {
-
+const ItemList = ({ items, type }) => {
+console.log('items  -----' -items)
   return (
     <>
       <div className='cart_section'>
@@ -11,6 +11,7 @@ const ItemList = ({ items }) => {
             {items && (
               items.map((product) => (
                 <Item
+                  type={type}
                   key={product.id}
                   item={product}
                 />

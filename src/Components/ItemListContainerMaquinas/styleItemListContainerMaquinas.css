@@ -6,6 +6,15 @@
     padding: 1.5rem 0;
 }
 
+.loading {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 480px) {
     .category_title{
         font-size: 1.2rem;

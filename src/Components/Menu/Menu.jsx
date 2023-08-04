@@ -4,8 +4,9 @@ import Logo from '../../Assets/logo.png';
 import "./styleMenu.css";
 
 const Menu = () => {
-  return (
+   return (
     <header className='sticky-top'>
+      
       <Navbar bg="light" expand="lg" className="navbar">
         <Navbar.Brand href="/">
             <img src={Logo} alt="Logotipo" loading='Tecnaplast' width="65" height="70"/>
@@ -15,7 +16,9 @@ const Menu = () => {
           <Nav className="ml-auto text-uppercase">
             <Nav.Link href="/">inicio</Nav.Link>
             <NavDropdown title="maquinas" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/Maquinas/Horno de Compresion">horno compresión</NavDropdown.Item>
+                <NavDropdown title="horno de compresión" id="basic-nav-dropdown" className="dropdown-toggle-right dropdown-menu-right dropdown-submenu-right">
+                    <NavDropdown.Item href="/Maquinas/Horno de Compresion">Horno de Compresión</NavDropdown.Item>
+                </NavDropdown>
                 <NavDropdown.Divider />
                 <NavDropdown title="trituradoras" id="basic-nav-dropdown" className="dropdown-toggle-right dropdown-menu-right dropdown-submenu-right">
                     <NavDropdown.Item href="/Maquinas/Trituradoras/Trituradora Básica">trituradora básica</NavDropdown.Item>
@@ -39,7 +42,7 @@ const Menu = () => {
                     <NavDropdown.Item href="/Maquinas/Inyectoras">ver todas</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown.Divider />
-                <NavDropdown title="prensas tablas" id="basic-nav-dropdown" className="dropdown-toggle-right dropdown-menu-right dropdown-submenu-right">
+                <NavDropdown title="Prensas Tablas" id="basic-nav-dropdown" className="dropdown-toggle-right dropdown-menu-right dropdown-submenu-right">
                     <NavDropdown.Item href="/Maquinas/PrensasTablas/Prensa Tabla 1 x 1">prensa tabla 1m x 1m</NavDropdown.Item>
                     <NavDropdown.Item href="/Maquinas/PrensasTablas/Prensa Tabla 60 x 60">prensa tabla 60cm x 60cm</NavDropdown.Item>
                     <NavDropdown.Item href="/Maquinas/Prensas Tablas">ver todas</NavDropdown.Item>
@@ -67,6 +70,7 @@ const Menu = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+    
     </header>
   );
 };

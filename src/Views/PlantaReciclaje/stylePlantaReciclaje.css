@@ -1,0 +1,55 @@
+.portada {
+    height: 70vh;
+    width: 100%;
+    background-image: url("../../Assets/portada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.contenedor {
+  width: 800px;
+  margin: auto;
+  position: relative;  
+  
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  color: #999;
+  /* background-image: url("https://res.cloudinary.com/decpgk49e/image/upload/v1560476746/erakomp/about-v2/BACKGROUND_1_v663su.jpg");
+  background-size: auto 5420px;
+  background-repeat: no-repeat;
+  background-position: center center; */
+}
+p {
+  font-size: 1em;
+  /*   line-height: 2; */
+}
+h1,
+h2,
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.img_planta {
+  display: block;
+  height: auto;
+  margin-top: 3rem;
+}
+/*#intro,
+		#our-history,
+		#vision-mision,
+		#partners {
+		  min-height: 600px;
+		}*/
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.spacer-b {
+  margin-bottom: 10em;
+}
