@@ -97,10 +97,10 @@ const Form = () => {
   const renderMachineSelect = () => {
     if (selectedOptions.value === 'SOLICITUD DE PRESUPUESTO MÁQUINA' || selectedOptions.value === 'CONSULTA MÁQUINA') {
       return (
-        <>
-          <div className="form_campo col-lg-6">
-            <label htmlFor="maquinas">Seleccione la/s máquina/s:</label>
-            <Select
+        <div className="container-fluid">
+          <div className="form_campo">
+            <label htmlFor="maquinas" >Seleccione la/s máquina/s:</label>
+            <Select className="input_asunto"
               name="user_machine"
               options={machineOptions}
               isMulti
@@ -109,7 +109,7 @@ const Form = () => {
               required
             />
           </div>
-        </>
+        </div>
       );
     }
   };
@@ -132,7 +132,7 @@ const Form = () => {
         </div>
         <div className="form_campo col-lg-6">
           <label htmlFor="select">asunto</label>
-          <Select
+          <Select className="input_asunto"
             name="user_subject"
             options={options}
             value={selectedOptions}

@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
 
           <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 footer_a'>
-            <a href="https://goo.gl/maps/3X3U55UK5Reit5bn7" className='d-flex flex-column justify-content-center align-items-center' target="_blank" rel="noopener noreferrer">
+            <a href="https://goo.gl/maps/3X3U55UK5Reit5bn7" className='columna_footer' target="_blank" rel="noopener noreferrer">
               <div className='footer_icono_fondo'>
                 <Icons Icon={GrMap} color={"black"} size={"40px"}/>
               </div>
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
 
           <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 footer_a'>
-            <a href="mailto:industriatecnaplast@gmail.com" className='d-flex flex-column justify-content-center align-items-center' target="_blank" rel="noopener noreferrer">
+            <a href="mailto:industriatecnaplast@gmail.com" className='columna_footer' target="_blank" rel="noopener noreferrer">
               <div className='footer_icono_fondo'>
                 <Icons Icon={GrMailOption} color={"black"} size={"40px"}/>
               </div>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
 
           <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 footer_a'>
-            <a href="https://wa.me/5493513587826" className='d-flex flex-column justify-content-center align-items-center' target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5493513587826" className='columna_footer' target="_blank" rel="noopener noreferrer">
               <div className='footer_icono_fondo'>
                 <Icons Icon={GrPhone} color={"black"} size={"40px"}/>
               </div>

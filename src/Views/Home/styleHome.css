@@ -39,31 +39,27 @@
     background-color: var(--negro);
     width: 100%;
     height: auto;
-    padding: 5rem 1rem;
+    /* padding: 5rem 1rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 1rem;
-    grid-row-gap: 2rem;
+    grid-row-gap: 2rem; */
     align-items: center;
     justify-items: center;
 }
 
-.mision_texto {
-    grid-column: 2 / span 5;
-    grid-row: 1;
-}
-
-.flow--lg > * + * {
+/* .flow--lg > * + * {
     margin-top: 2em;
 }
 
 .flow > * + * {
     margin-top: 1em;
-}
+} */
 
 .mision_fondo {
-    grid-column: 2 / span 5;
-    grid-row: 1;
+    /* grid-column: 2 / span 5;
+    grid-row: 1; */
+    position: absolute;
 }
 
 .mision_fondo h1{
@@ -72,14 +68,14 @@
     opacity: 0.05;
     text-align: center;
     letter-spacing: .8rem;
-    z-index: -1;
+    z-index: -1 !important;
 }
 
 .mision_titulo {
     color: var(--grisClaro);
     text-align: center;
     font-size: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 
 .mision_titulo span {
@@ -98,15 +94,15 @@
 
 .mision_imagen {
     margin: 0;
-    height: 50vh;
-    width: 50%;
+    height: 60vh;
+    /* width: 50%; */
     background-image: url('https://preciousplastic.com/images/hdiw-workspace.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: inherit;
     /* background-attachment: fixed; */
-    grid-column: 7 / span 6;
-    grid-row: 1;
+    /* grid-column: 7 / span 6;
+    grid-row: 1; */
 }
 
 /*---------------------------------------------------------------------*/
@@ -165,7 +161,7 @@
 }
 
 .beneficios_izquierda{
-    padding: 0 3.5rem;
+    padding: 3rem 3.5rem;
 }
 
 .beneficios_linea {
@@ -185,14 +181,20 @@
     position: relative;
     z-index: 1;
 }
-
+.beneficios_subtitulo{
+    color: white;
+}
 .beneficios_izquierda_fondo span{
     color: var(--turquesa);
+}
+.beneficio_item{
+    padding: 0rem 3.5rem;
 }
 
 .beneficios_numero{
     width: 3rem;
     border-right: solid 3px;
+    color: #00ADF1;
 }
 
 /*---------------------------------------------------------------------*/

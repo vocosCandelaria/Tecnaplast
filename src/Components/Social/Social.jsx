@@ -6,7 +6,7 @@ import './styleSocial.css';
 
 const Social = () => {
     return (
-        <div class="social_bar">
+        <div className="social_bar">
             <a
             className='icon icon-whatsapp'
             href="https://wa.me/5493513587826"

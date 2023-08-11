@@ -9,13 +9,13 @@ const Contact = () => {
     <>
       <section className='container-fluid contacto_fondo'>
         <div className='row contacto_total'>
-          <div className='col-md-5 mx-auto my-auto contacto_izquierda'>
+          <div className='col-lg-5 col-md-12 col-sm-12 mx-auto my-auto contacto_izquierda'>
             <div className="title">
               <h2>contacto</h2>
             </div>
-            <h5 className='text-justify'>Si tiene preguntas sobre nuestros productos, no dude en contactarnos. Le responderemos tan pronto como sea posible.</h5>
+            <p className='text-justify'>Si tiene preguntas sobre nuestros productos, no dude en contactarnos. Le responderemos tan pronto como sea posible.</p>
           </div>
-          <div className='col-md-7 mx-auto contacto_derecha'>
+          <div className='col-lg-7 col-md-12 col-sm-12 mx-auto contacto_derecha'>
             <Form/>
           </div>
 

@@ -10,7 +10,7 @@ const CategoryMaquinas = ({ imagen, CategoryId }) => {
 				    <img className="img_galeria" src={imagen} alt={CategoryId}/>
 				    <figcaption>
 					    <div>
-						    <h2><span>{CategoryId}</span></h2>
+						    <h4><span>{CategoryId}</span></h4>
 					    </div>
 				    </figcaption>
 		        </Link>		

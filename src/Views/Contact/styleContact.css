@@ -5,25 +5,36 @@
     background-size: cover;
     z-index: -1;
     padding: 5rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contacto_total {
-    margin: 0 13rem;
+    width: 90%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .contacto_izquierda {
     background-color: var(--grisClaro);
     color: var(--negro);
-    padding: 3rem 4.5rem 10rem;
+    padding: 3rem 4rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.contacto_izquierda h5{
-    padding-top: 3rem;
-    line-height: 1.8rem;
+.contacto_izquierda p{
+    line-height: 2rem;
 }
 
 .contacto_derecha {
     background-color: var(--gris);
+    font-size: 0.9rem;
+    padding: 2rem;
+    color: white;
 }

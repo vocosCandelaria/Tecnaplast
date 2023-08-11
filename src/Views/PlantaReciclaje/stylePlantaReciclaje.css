@@ -28,12 +28,12 @@ p {
   font-size: 1em;
   /*   line-height: 2; */
 }
-h1,
+/* h1,
 h2,
 h3 {
   font-size: 24px;
   font-weight: 700;
-}
+} */
 .img_planta {
   display: block;
   height: auto;
@@ -52,4 +52,28 @@ h3 {
 
 .spacer-b {
   margin-bottom: 10em;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.title h2{
+  padding: 1.7rem 0;
+  background: var(--gradiente);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 700;
+  /* white-space: nowrap; */
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 2.5rem;
 }
