@@ -8,6 +8,10 @@
     background-attachment: fixed;
     z-index: -1;
 }
+.bold {
+  font-weight: bold;
+  text-align: left;
+}
 
 .contenedor {
   width: 800px;
@@ -16,17 +20,27 @@
   
 }
 
-body {
-  font-family: "Cairo", sans-serif;
-  color: #999;
-  /* background-image: url("https://res.cloudinary.com/decpgk49e/image/upload/v1560476746/erakomp/about-v2/BACKGROUND_1_v663su.jpg");
-  background-size: auto 5420px;
-  background-repeat: no-repeat;
-  background-position: center center; */
-}
 p {
   font-size: 1em;
+  text-align: justify;
   /*   line-height: 2; */
+}
+.text-align-justify{
+  text-align: justify;
+}
+ul{
+  padding-bottom: 2.7rem;
+  text-align: justify;
+}
+ul li{
+    margin:  1rem 1rem 0rem 1rem
+}
+.subt{
+  color:#00b8ff;
+  font-size: 1.2rem;
+}
+.ml1{
+  margin-left: 1rem;
 }
 /* h1,
 h2,
@@ -38,6 +52,7 @@ h3 {
   display: block;
   height: auto;
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 /*#intro,
 		#our-history,
@@ -45,15 +60,12 @@ h3 {
 		#partners {
 		  min-height: 600px;
 		}*/
-
+.pt1{
+  padding-top:1rem;
+}
 .pt-100 {
   padding-top: 100px;
 }
-
-.spacer-b {
-  margin-bottom: 10em;
-}
-
 .title {
   display: flex;
   justify-content: center;
