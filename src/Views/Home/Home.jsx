@@ -31,29 +31,7 @@ import CategoryMoldes from '../../Components/CategoryMoldes/CategoryMoldes';
 const Home = () => {
   return (
     <>
-      <section className='container-fluid portada_imagen'>
-        {/* <div className='portada_texto'>
-            <h2 className='portada_titulo'>Tecnaplast</h2>
-            <h4 className='portada_subtitulo'>La máquina para tu casa</h4>
-          </div> */}
-      </section>
-
-      {/* <section className='container-fluid mision'>
-          <div className='mision_fondo'>
-            <h1>Tecnaplast</h1>
-          </div>
-          <div className='mision_texto'>
-            <div className='flow'>
-              <h2 className='mision_titulo'>Sobre <span>Tecnaplast</span></h2>
-              <p className='mision_subtitulo'><span>Misión:</span> "Ofrecer máquinas de excelencia destinadas al reciclaje de plástico, asegurando la satisfacción de nuestros clientes y el bienestar de todos nuestros colaboradores promoviendo la conservación del medio ambiente."</p>
-              <hr />
-              <p className='mision_subtitulo'><span>Visión:</span> "Ser una empresa líder en el rubro a nivel nacional, expandiéndonos a mercados internacionales, brindando maquinarias que ofrecen una rentabilidad económica y socio-ambiental."</p>
-            </div>
-          </div>
-
-          <div className='mision_imagen'></div>
-        </section> */}
-
+      <section className='container-fluid portada_imagen'></section>
       <section className='mision'>
         <div className='container-fluid'>
           <div className='row align-items-center'>
