@@ -225,6 +225,15 @@
     .title{
         font-size: 1.5rem;
     }
+    .mision_subtitulo {
+        padding: 0 3rem;
+    }
+    .container_mision {
+        padding-bottom: 15px;
+    }
+    .beneficios_numero{
+        font-size: 1.5rem;
+    }
 } 
 
 /*---------------------------------------------------------------------*/

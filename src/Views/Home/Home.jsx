@@ -31,20 +31,23 @@ import CategoryMoldes from '../../Components/CategoryMoldes/CategoryMoldes';
 const Home = () => {
   return (
     <>
-      <section className='container-fluid portada_imagen'></section>
-      <section className='mision'>
-        <div className='container-fluid'>
-          <div className='row align-items-center'>
-            <div className='col-sm-12 col-md-12 col-lg-6 col-xl-6'>
-              <div className='mision_fondo'>
-                <h1>Tecnaplast</h1>
+      <section className='container-fluid'>
+        <div className='portada_imagen'></div>
+
+        <div className='mision'>
+          <div className='container-fluid'>
+            <div className='row align-items-center'>
+              <div className='container_mision col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+                <div className='mision_fondo'>
+                  <h1>Tecnaplast</h1>
+                </div>
+                <h2 className='mision_titulo'>Sobre <span>Tecnaplast</span></h2>
+                <p className='mision_subtitulo'><span>Misión:</span> "Ofrecer máquinas de excelencia destinadas al reciclaje de plástico, asegurando la satisfacción de nuestros clientes y el bienestar de todos nuestros colaboradores promoviendo la conservación del medio ambiente."</p>
+                <hr />
+                <p className='mision_subtitulo'><span>Visión:</span> "Ser una empresa líder en el rubro a nivel nacional, expandiéndonos a mercados internacionales, brindando maquinarias que ofrecen una rentabilidad económica y socio-ambiental."</p>
               </div>
-              <h2 className='mision_titulo'>Sobre <span>Tecnaplast</span></h2>
-              <p className='mision_subtitulo'><span>Misión:</span> "Ofrecer máquinas de excelencia destinadas al reciclaje de plástico, asegurando la satisfacción de nuestros clientes y el bienestar de todos nuestros colaboradores promoviendo la conservación del medio ambiente."</p>
-              <hr />
-              <p className='mision_subtitulo'><span>Visión:</span> "Ser una empresa líder en el rubro a nivel nacional, expandiéndonos a mercados internacionales, brindando maquinarias que ofrecen una rentabilidad económica y socio-ambiental."</p>
+              <div className='col-sm-12 col-md-12 col-lg-6 col-xl-6 mision_imagen'></div>
             </div>
-            <div className='col-sm-12 col-md-12 col-lg-6 col-xl-6 mision_imagen'></div>
           </div>
         </div>
       </section>
@@ -159,30 +162,9 @@ const Home = () => {
           <img className='cliente' src={picky_toys} alt="Picky Toys" />
           <img className='cliente' src={comunidad_pro} alt="Comunidad Pro" />
           <img className='cliente' src={ecolif} alt="Ecolif" />
-          {/* <div className='col-xs-12 mb-3'>
-              <img className='cliente' src={buenos_aires} alt="Buenos Aires"/>
-              <img className='cliente' src={ministerio_de_educacion_cordoba} alt="Ministerio de Eduación Córdoba"/>
-              <img className='cliente' src={ministerio_de_educacion_santa_fe} alt="Ministerio de Eduación Santa Fé"/>
-              <img className='cliente' src={munic_bragado} alt="Municipalidad de Bragado"/>
-              <img className='cliente' src={munic_despeñaderos} alt="Municipalidad de Despeñaderos"/>
-              <img className='cliente' src={munic_rio_grande} alt="Municipalidad de Huerta Grande"/>
-            </div>
-          </div>
-          <div className='row justify-content-around text-center'>
-            <div className='col-xs-12 mb-3'>
-              <img className='cliente' src={munic_gral_alvarado} alt="Municipio General Alvarado"/>
-              <img className='cliente' src={munic_huerta_grande} alt="Municipio de Rio Grande"/>
-              <img className='cliente' src={UNLPam} alt="UNLPam"/>
-              <img className='cliente' src={facaf} alt="FACAF"/>
-              <img className='cliente' src={picky_toys} alt="Picky Toys"/>
-            </div> */}
-        </div>
-        {/* <Footer/> */}
-      </section>
 
-      {/* <section className='container-fluid'>
-          <Social/>
-        </section> */}
+        </div>
+      </section>
     </>
   )
 }
