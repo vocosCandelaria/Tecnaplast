@@ -222,6 +222,9 @@
         background-attachment: inherit;
         z-index: -1;
     }
+    .title{
+        font-size: 1.5rem;
+    }
 } 
 
 /*---------------------------------------------------------------------*/
