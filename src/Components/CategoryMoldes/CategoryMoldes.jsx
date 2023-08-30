@@ -13,7 +13,7 @@ const CategoryMoldes = ({ imagen, CategoryId }) => {
         //     </Link>
         // </div>
 
-        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 d-flex grid pl-0 pr-0">
+        <div className="gallery_container col-xs-12 col-sm-12 col-md-6 col-lg-4 d-flex grid pl-0 pr-0">
 			<figure className="effect-lily">
                 <Link to={`/Moldes/${CategoryId}`}>
 				    <img src={imagen} alt={CategoryId}/>

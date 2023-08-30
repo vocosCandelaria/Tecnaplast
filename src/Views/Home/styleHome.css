@@ -189,8 +189,23 @@
     .container_mision {
         padding-bottom: 15px;
     }
+    
     .beneficios_numero{
         font-size: 1.5rem;
+    }
+    .beneficios_izquierda_fondo{
+        padding: 1rem;
+    }
+    .beneficios_subtitulo{
+        font-size: 1.5rem;
+    }
+    .beneficios_fondo{
+        padding: 0;
+        height: auto;
+    }
+    img {
+        max-width: 60%;
+        height: auto;
     }
 } 
 
