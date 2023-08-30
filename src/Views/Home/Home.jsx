@@ -30,8 +30,8 @@ import CategoryMoldes from '../../Components/CategoryMoldes/CategoryMoldes';
 
 const Home = () => {
   return (
-    <>
-      <section className='container-fluid'>
+    <section className='container-fluid'>
+      <section>
         <div className='portada_imagen'></div>
 
         <div className='mision'>
@@ -52,7 +52,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='container-fluid'>
+      <section>
         <div className="title">
           <h2>máquinas</h2>
         </div>
@@ -66,7 +66,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='container-fluid home_category'>
+      <section className='home_category'>
         <div className="title">
           <h2>moldes y accesorios</h2>
         </div>
@@ -77,7 +77,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='container-fluid beneficios_fondo mt-4'>
+      <section className='beneficios_fondo mt-4'>
         <div className='row beneficios_total'>
 
           <div className='col-lg-5 mx-auto my-auto beneficios_izquierda'>
@@ -144,7 +144,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='container-fluid'>
+      <section>
         <div className="title">
           <h2>nuestros clientes</h2>
         </div>
@@ -165,7 +165,7 @@ const Home = () => {
 
         </div>
       </section>
-    </>
+    </section>
   )
 }
 
