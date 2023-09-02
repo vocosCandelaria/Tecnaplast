@@ -38,3 +38,32 @@
     padding: 2rem;
     color: white;
 }
+@media screen and  (min-width: 349px) and (max-width: 575px) {
+
+.contacto_izquierda{
+    padding: 1rem 1.2rem;
+}
+.contacto_total {
+    width: 100%;
+}
+.contacto_fondo{
+    padding: 2rem 2rem;
+}
+.contacto_izquierda p{
+    font-size: 0.85rem;
+    
+}
+.contacto_derecha {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+}
+.boton span {
+    font-size: 0.8rem;
+    padding: 10px 10px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+}

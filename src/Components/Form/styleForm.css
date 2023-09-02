@@ -124,3 +124,9 @@ label {
 .input_asunto{
     color:gray;
 }
+@media screen and  (min-width: 349px) and (max-width: 575px) {
+    input {
+        width: 100%;
+        padding: 5px;
+    }
+}
