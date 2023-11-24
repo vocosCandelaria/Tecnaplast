@@ -41,7 +41,7 @@ const Item = ({item, type = 'maquinas'}) => {
         <div className="column-xs-12">
           <nav>
             <ol className="breadcrumb-list">
-              <li className="breadcrumb-item"><a href="#">Tecnoplast</a></li>
+              <li className="breadcrumb-item"><a href="#">Tecnaplast</a></li>
               <li className="breadcrumb-item"><a href="#">{item.category}</a></li>
               <li className="breadcrumb-item active">{item.name}</li>
             </ol>

@@ -16,18 +16,6 @@ const CategoryMaquinas = ({ imagen, CategoryId }) => {
 		        </Link>		
 			</figure>
 		</div>
-
-		// <section>
-		// 	<Link to={`/Maquinas/${CategoryId}`}>
-		// 		<div className="gallery_container">
-		// 			<div className="gallery_item">
-		// 				<img className="gallery_img" src={imagen} alt={CategoryId} />
-		// 				<h2 className="gallery_title"><span>{CategoryId}</span></h2>
-		// 			</div>
-		// 		</div>
-
-		// 	</Link>
-		// </section>
 	)
 }
 

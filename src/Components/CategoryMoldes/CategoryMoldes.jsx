@@ -21,7 +21,6 @@ const CategoryMoldes = ({ imagen, CategoryId }) => {
 					    <div>
 						    <h4><span>{CategoryId}</span></h4>
 					    </div>
-					    {/* <a href="#">Ver más</a> */}
 				    </figcaption>
                 </Link>		
 			</figure>
