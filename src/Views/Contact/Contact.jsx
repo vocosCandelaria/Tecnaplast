@@ -20,12 +20,8 @@ const Contact = () => {
           </div>
 
         </div>
-        {/* <Footer/> */}
+        
       </section>
-
-      {/* <section className='container-fluid'>
-          <Social/>
-      </section> */}
     </>
   )
 }

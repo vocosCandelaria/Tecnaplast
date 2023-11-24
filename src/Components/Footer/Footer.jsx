@@ -35,11 +35,11 @@ const Footer = () => {
           </div>
 
           <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 footer_a'>
-            <a href="https://wa.me/5493513587826" className='columna_footer' target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5493516419185" className='columna_footer' target="_blank" rel="noopener noreferrer">
               <div className='footer_icono_fondo'>
                 <Icons Icon={GrPhone} color={"black"} size={"40px"}/>
               </div>
-              <p className='footer_icono_texto'>+54 9 3513 58-7826</p>
+              <p className='footer_icono_texto'>+54 9 3516 41-9185</p>
             </a>
           </div>
         </div>
