@@ -9,7 +9,7 @@ const Social = () => {
         <div className="social_bar">
             <a
             className='icon icon-whatsapp'
-            href="https://wa.me/5493513587826"
+            href="https://wa.me/5493516419185"
             target="_blank"
             rel="noopener noreferrer"
             ><Icons Icon={IoLogoWhatsapp} color={"white"} size={"20px"}/>

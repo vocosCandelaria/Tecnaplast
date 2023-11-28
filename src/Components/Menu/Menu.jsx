@@ -38,7 +38,7 @@ const Menu = () => {
                 <NavDropdown.Divider />
                 <NavDropdown title="inyectoras" id="basic-nav-dropdown" className="dropdown-toggle-right dropdown-menu-right dropdown-submenu-right">
                     <NavDropdown.Item href="/Maquinas/Inyectoras/Inyectora Manual">inyectora manual</NavDropdown.Item>
-                    <NavDropdown.Item href="/Maquinas/Inyectoras/Inyectora Neumática">inyectora neumática</NavDropdown.Item>
+                    <NavDropdown.Itemgt href="/Maquinas/Inyectoras/Inyectora Neumática">inyectora neumática</NavDropdown.Itemgt>
                     <NavDropdown.Item href="/Maquinas/Inyectoras">ver todas</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown.Divider />
